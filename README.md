@@ -1,6 +1,3 @@
-Here’s your **README** with the updated topics:  
-
----
 
 # 🚀 Advanced Python Concepts  
 
