@@ -9,6 +9,7 @@ def square(numbers):
                 print("square",number*number)
                 #squarelist.append(number*number) 
                 #storing result of the function into a global variable (list)
+
 def cube(numbers):
         print("calculate cube numbers:")
         for number in numbers:
@@ -17,20 +18,14 @@ def cube(numbers):
 
 arr=[2,3,4,5]
 
-thread1=threading.Thread(target=square,args=(arr,))
-thread2=threading.Thread(target=cube,args=(arr,))
-
 start=time.time()
 
-# Starting threads
-thread1.start()
-thread2.start()
+square(arr)
 
-# Waiting for both threads to finish
-thread1.join()
-thread2.join()
+cube(arr)
 
 end=time.time()
+
 print("it took=",(end-start))
 #print(squarelist)--> it works outside of the thread, unlike process 
 print("done")

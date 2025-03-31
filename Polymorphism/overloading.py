@@ -19,7 +19,7 @@ class show:
                 print(" ")
         else:
             a=input("enter:")
-            for i in range(1,int(a)):
+            for i in range(1,int(a)+1):
                 for k in range(int(a)-i+1):
                     print(" ",end="")
                 for j in range(1,2*i):
