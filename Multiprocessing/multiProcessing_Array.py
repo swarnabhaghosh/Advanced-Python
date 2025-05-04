@@ -1,7 +1,9 @@
 # Sharing Data Between Processes Using Array and Value
 # if we try to print a global variable inside a process it will be doing ok but for outside the process this will not work, because when we create a new process from a parent process it creates its own adress space (where it stores all thes variables etc.), where the global variable is the part of the main (parent) process, it will be not accessible by the new process
-# to resolve this process we require IPC: files, queues, message pipes, shared memory [array, value] instead of global variable
+# to resolve this process we require IPC: (Inter-process Communication) usinfg files, queues, message pipes, shared memory [array, value] instead of global variable
+
 # shared memory variable is different from regular variables and need to mention the datatype while created, (for integer it is 'i' and for double it is 'd') and the size of the input, It is not resizable (fixed size when created).
+
 # multiprocessing.Array is shared across processes.
 # It is synchronized, so modifications are reflected.
 
