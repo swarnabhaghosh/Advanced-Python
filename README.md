@@ -18,9 +18,12 @@ Master **Advanced Python** with key concepts to take your coding skills to the n
 
 ## 🚀 Get Started  
 Clone this repo and start exploring!  
+```bash
 git clone https://github.com/your-username/advanced-python.git
-
+```
+```bash
 cd advanced-python
+```
 
 Happy Coding! 😃🔥  
 
